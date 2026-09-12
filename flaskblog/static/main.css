@@ -78,3 +78,63 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 95%;
+        padding: 0 10px;
+    }
+
+    .content-section {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    .article-title {
+        font-size: 1.3rem;
+    }
+
+    .article-content {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .article-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .media-body {
+        min-width: 0;
+    }
+
+    .account-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .account-heading {
+        font-size: 1.8rem;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    input,
+    textarea,
+    select {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+}
